@@ -110,3 +110,26 @@
     background-color: #FF5A30;
 }
 
+.numbers {
+    margin-top: 179px;
+    display: flex;
+    flex-direction: row;
+}
+
+.number_text_1,
+.number_text {
+    color:white;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 150%;
+    width: 178px;
+    border-bottom: 2px solid white; 
+    display: inline-block; 
+    padding-bottom: 12px; 
+    margin-right:4px;
+}
+
+.number_text {
+    opacity: 0.6;
+}
+
