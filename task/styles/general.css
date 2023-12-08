@@ -1,3 +1,5 @@
 body {
     font-family: Ubuntu;
+    display: flex;
+    flex-direction: column;
 }
