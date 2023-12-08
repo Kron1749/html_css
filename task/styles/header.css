@@ -1,0 +1,57 @@
+.header {
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    position:fixed;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+    z-index:100;
+}
+
+.logo_header {
+    margin-left:345px;
+    width: 130px;
+    height: 22px;
+}
+.text_header {
+
+    display: flex;
+    flex-direction: row;
+}
+.text_header p {
+    margin-right: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 160%;
+}
+.contact_header {
+    margin-right:345px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.phone_icon_header,
+.chat_icon_header{
+    margin-right: 12px;
+}
+.phone_header_text {
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    margin-right: 36px;
+}
+
+.call_text,
+.talk_text {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.phone_number,
+.email {
+    font-size: 18px;
+    font-weight: 400;
+}
