@@ -9,28 +9,43 @@
     display: block;
 }
 
-.slogan_text {
+.description_project {
     position: absolute;
     display: flex;
     flex-direction: column;
     top:220px;
     left:345px;
+    width:577px;
 }
 
 .fist_word_slogan,
 .second_word_slogan,
 .x_letter_slogan {
+    color: white;
     font-size: 72px;
     font-weight: 700;
     line-height: 130%;
     letter-spacing: 1px;
 }
 
+.description_text {
+    margin-top: 24px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%
+}
+
+
 .fist_word_slogan {
+    margin-top: 150px;
     margin-bottom:0;
 }
 .second_word_slogan {
     margin-top:0;
+    margin-bottom:0;
 }
 .x_letter_slogan {
     color: #FF5A30;
@@ -66,3 +81,32 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.buttons_learn_submit {
+    margin-top: 61px;
+    display: flex;
+    flex-direction: row;
+}
+
+.learn_button,
+.submit_button {
+    border-radius: 4px;
+    color: white;
+    padding: 0 40px;
+    line-height: 52px;
+    text-align:center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.learn_button {
+    border: 1px solid white;
+    background-color: rgba(0,0,0,0);
+    margin-right: 24px;
+}
+
+.submit_button {
+    border: 0;
+    background-color: #FF5A30;
+}
+
