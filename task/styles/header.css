@@ -10,48 +10,51 @@
     z-index:100;
 }
 
-.logo_header {
+.header__logo {
     margin-left:345px;
     width: 130px;
     height: 22px;
 }
-.text_header {
 
+.header__text {
     display: flex;
     flex-direction: row;
 }
-.text_header p {
+
+.header__p {
     margin-right: 40px;
     font-size: 16px;
     font-weight: 700;
     line-height: 160%;
 }
-.contact_header {
+
+.header__contact {
     margin-right:345px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-.phone_icon_header,
-.chat_icon_header{
+.header__phone_icon,
+.header__chat_icon {
     margin-right: 12px;
 }
-.phone_header_text {
+.header__phone_text,
+.header__chat_text {
     display: flex;
     flex-direction: column;
     line-height: 0;
     margin-right: 36px;
 }
 
-.call_text,
-.talk_text {
+.header__call_text,
+.header__talk_text {
     font-size: 14px;
     font-weight: 700;
 }
 
-.phone_number,
-.email {
+.header__phone_number_text,
+.header__email_text {
     font-size: 18px;
     font-weight: 400;
 }
