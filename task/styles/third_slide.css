@@ -1,0 +1,138 @@
+.third_slide {
+    padding: 0;
+    position: relative;
+    background: #F4F5F6;
+}
+
+.third_slide__services {
+    margin-top: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third_slide__services_text {
+    background-color: #F4F5F6;
+    margin-top: 250px;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 24px;
+}
+
+.third_slide__services_description {
+    margin-top: 0;
+    color: #787A80;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.third_slide__services_top {
+    text-align:center;
+}
+
+.third_slide__four_services {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.third_slide__first_service,
+.third_slide__second_service,
+.third_slide__third_service,
+.third_slide__forth_service {
+    border-radius: 4px;
+    border: 1px solid var(--gray-300, #E5E8ED);
+    background: #FFF;
+    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.third_slide__forth_service{
+    margin-right: 0;
+}
+
+.third_slide__third_service {
+    background-image: url('../images/third_slide.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.third_slide__construction_service,
+.third_slide__development_service,
+.third_slide__design_service,
+.third_slide__repairs_service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.third_slide__construction_service {
+    margin: 89px 80px 90px 80px;
+}
+
+.third_slide__development_service {
+    margin: 89px 40.5px 90px 40.5px;
+}
+
+.third_slide__design_service {
+    margin: 89px 70.5px 90px 70.5px;
+}
+
+.third_slide__repairs_service {
+    margin: 89px 106px 90px 106px;
+}
+
+.third_slide__icon_construction,
+.third_slide__icon_development,
+.third_slide__icon_design,
+.third_slide__icon_repair {
+    margin-bottom: 0px;
+}
+
+.third_slide__contruction_text,
+.third_slide__development_text,
+.third_slide__design_text,
+.third_slide__repairs_text {
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%
+}
+
+.third_slide__design_text {
+    color: white;
+}
+
+.third_slide__learn{
+    margin-top: 85px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.third_slide__learn_text {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 150%; 
+    margin-right: 40px;
+}
+
+.third_slide__services_button {
+    border: 0;
+    padding: 0px 40px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #FF5A30;
+    color:  #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 52px; 
+    letter-spacing: 0.5px;
+}
