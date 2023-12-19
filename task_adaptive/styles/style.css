@@ -140,6 +140,41 @@ body {
     }
 }
 
+.menu__itemContact,
+.menu__itemEmail {
+    margin-left: 172px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu__phoneText,
+.menu__emailText {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    margin-left: 12px;
+}
+
+.menu__itemEmail {
+    margin-left: 36px;
+}
+
+@media (max-width: 1100px)  {
+    .menu__itemContact,
+    .menu__itemEmail {
+         margin-left: 40px;
+    }
+ }
+
+ @media (max-width: 992px)  {
+    .menu__itemContact,
+    .menu__itemEmail {
+         margin-left: 0px;
+    }
+ }
 
 .footer {
 
