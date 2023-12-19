@@ -449,41 +449,41 @@ body {
     margin-top: 180px;
 }
 
-.second-block__core_values {
+.second-block__core-values {
     display:flex;
     flex-direction:column;
     margin-top: 60px;
     text-align: center;
 }
 
-.second-block__values_description {
+.second-block__values-description {
     display:flex;
     flex-direction:row;
     align-items: center;
     margin-top: 60px;
 }
 
-.second-block__core_values_text {
+.second-block__core-values-text {
     font-size: 46px;
     font-weight: 700;
     line-height: 130%;
 }
 
-.second-block__mission_text {
+.second-block__mission-text {
     color: #787A80;
     font-size: 18px;
     font-weight: 400;
     line-height: 150%;
 }
 
-.second-block__value_description_1,
-.second-block__value_description_2,
-.second-block__value_description_3 {
+.second-block__value-description-1,
+.second-block__value-description-2,
+.second-block__value-description-3 {
     max-width: 285px;   
 }
 
-.second-block__value_description_1,
-.second-block__value_description_2 {
+.second-block__value-description-1,
+.second-block__value-description-2 {
     margin-right: 94px;
 }
 
@@ -495,30 +495,30 @@ body {
     margin-right: 94px;
 }
 
-.second-block__quality_icon,
-.second-block__safety_icon,
-.second-block__comfort_icon {
+.second-block__quality-icon,
+.second-block__safety-icon,
+.second-block__comfort-icon {
     margin-bottom: 24px;
 }
 
-.second-block__quality_text,
-.second-block__safety_text,
-.second-block__comfort_text {
+.second-block__quality-text,
+.second-block__safety-text,
+.second-block__comfort-text {
     font-size: 20px;
     font-weight: 700;
     line-height: 150%;
 }
 
 @media (max-width: 767px)  {
-    .second-block__value_description_1,
-    .second-block__value_description_2 {
+    .second-block__value-description-1,
+    .second-block__value-description-2 {
         margin-right: 44px;
     }
  }
 
  @media (max-width: 500px)  {
-    .second-block__value_description_1,
-    .second-block__value_description_2,
+    .second-block__value-description-1,
+    .second-block__value-description-2,
     .second-block__divider {
         margin-right: 10px;
     }
