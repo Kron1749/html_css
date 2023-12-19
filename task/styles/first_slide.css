@@ -13,9 +13,10 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    top:220px;
-    left:345px;
-    width:577px;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 80%; 
 }
 
 .fist_word_slogan,
@@ -133,3 +134,27 @@
     opacity: 0.6;
 }
 
+@media (max-width: 1200px) {
+    .description_project {
+        top: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+    .description_project {
+        top: 5%;
+        left: 10%;
+        transform: none;
+        max-width: 90%;
+    }
+
+    .fist_word_slogan,
+    .second_word_slogan,
+    .x_letter_slogan {
+        font-size: 32px; /* Adjusted font size for smaller screens */
+    }
+
+    .description_text {
+        font-size: 14px; /* Adjusted font size for smaller screens */
+    }
+}
