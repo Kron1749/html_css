@@ -925,10 +925,72 @@ body {
     background: var(--primary, #FF5A30);
     display: flex;
     padding: 0px 40px;
-    gap: 10px;
     color: var(--white, #FFF);
     font-size: 16px;
     font-weight: 700;
     line-height: 52px;
     letter-spacing: 0.5px;
 }
+
+@media (max-width: 1070px) {
+    .forth-page__view-project {
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 20px; 
+        padding: 0px 22px;
+    }
+    .forth-page__arrow-right-icon,
+    .forth-page__arrow-in-circle img {
+        margin-left: 5px; 
+    }
+    .building2-image {
+        max-height: 240px;
+    }
+    .forth-page__building-description {
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 900px) {
+    .building2-image {
+        max-height: 200px;
+    }
+    .forth-page__building-description {
+        margin-bottom: 4px;
+    }
+    .forth-page__arrow-right-icon,
+    .forth-page__arrow-in-circle img {
+        margin-right: -9px; 
+    }
+}
+
+@media (max-width: 650px) {
+    .forth-page__arrow-right-icon,
+    .forth-page__arrow-in-circle img {
+        margin-right: -14px; 
+    }
+    .forth-page__projects-text {
+        font-size: 20px;
+    }
+}
+@media (max-width: 450px) {
+    .forth-page__arrow-right-icon,
+    .forth-page__arrow-in-circle img {
+        margin-right: -40px; 
+    }
+    .forth-page__arrows {
+        margin-right: 20px;
+    }
+
+    .forth-page__explore-text {
+        font-size: 18px;
+    }
+
+    .forth-page__explore-button {
+        padding: 0px 20px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+
