@@ -702,6 +702,8 @@ body {
 
 }
 
+
+
 .third-page__service-development {
     padding: 89px 40.5px 90px 40.5px;
 }
@@ -718,6 +720,35 @@ body {
 }
 
 
+@media (max-width: 1070px) {
+    .third-page__service-repairs,
+    .third-page__service {
+        padding: 90px 50px 50px 50px;
+    }
+}
+
+@media (max-width: 830px) {
+    .third-page__service-repairs,
+    .third-page__service,
+    .third-page__service-development,
+    .third-page__service-design {
+        padding: 90px 30px 50px 30px;
+    }
+}
+
+@media (max-width: 650px) {
+    .third-page__four-services {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .third-page__service-repairs,
+    .third-page__service-development,
+    .third-page__service-design {
+        margin-top: 20px;
+    }
+}
 
 .interior-design-text {
     color:  #FFF;
@@ -725,7 +756,6 @@ body {
     font-weight: 700;
     line-height: 150%;
 }
-
 
 .third-page__text-service {
     margin-top: 24px;
