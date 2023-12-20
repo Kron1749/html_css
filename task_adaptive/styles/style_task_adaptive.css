@@ -524,11 +524,18 @@ body {
     }
  }
 
+
  .contact-form-block__body {
-    padding: 120px 0px 168px 0px;
+    padding: 180px 0px 0px 0px;
     position: relative;
     max-width: 1230px;
     text-align: center;
+    z-index: 2;
+}
+
+.contact-form__main-block {
+    position: relative;
+    z-index: 2;
 }
 
 .contact_form__question_text {
@@ -541,14 +548,14 @@ body {
 .contact-form__fields {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 48px;
 }
 
 .contact-form__field {
-    flex: 1; 
-    margin-right: 24px; 
+    flex: 1;
+    margin-right: 24px;
     display: flex;
     flex-direction: column;
 }
@@ -557,19 +564,19 @@ body {
     margin-top: 28px;
     font-size: 14px;
     font-weight: 700;
-    line-height: 44px; 
+    line-height: 44px;
     letter-spacing: 0.5px;
     background-color: #FF5A30;
     color: white;
     padding: 0px 32px;
     align-items: center;
     border-radius: 4px;
-    border:0;
+    border: 0;
     margin-right: 60px;
 }
 
 .contact-form__field:first-child {
-    margin-left: 60px; 
+    margin-left: 60px;
 }
 
 .contact-form__text-name,
@@ -596,20 +603,35 @@ body {
 }
 
 @media (max-width: 830px) {
-    .contact-form-block__body  {
+    .contact-form-block__body {
         padding: 0px 0px 168px 0px;
     }
     .contact-form__fields {
-        flex-direction: column; 
-        align-items: center; 
+        flex-direction: column;
+        align-items: center;
     }
 
     .contact-form__field {
-        flex: 0 0 100%; 
-        margin-bottom: 24px; 
+        flex: 0 0 100%;
+        margin-bottom: 24px;
     }
     .contact-form__field:first-child {
-        margin-left: 0px; 
+        margin-left: 0px;
     }
-    
+}
+
+.third-page__image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3; /* Adjust to a higher value */
+}
+
+.third-page__body {
+    padding: 184px 0px 191px 0px;
+    position: relative;
+    max-width: 1230px;
+    z-index: 1; /* Adjust to a higher value */
 }
